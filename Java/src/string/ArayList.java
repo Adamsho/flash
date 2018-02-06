@@ -11,13 +11,16 @@ public class ArayList {
 		list.add("Bye Bye");
 		list.add(1);
 		System.out.println(list);
+		
 		list.set(3, "everyone");
 		System.out.println(list);
-//		list.clear();
-		System.out.println(list);
+		
+
 		list.get(0);
 		System.out.println(list.get(0));
 		System.out.println(list);
 		
+		list.clear();
+		System.out.println(list);
 	}
 }
