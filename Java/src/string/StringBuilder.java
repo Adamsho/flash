@@ -1,0 +1,29 @@
+package string;
+
+public class StringBuilder {
+	public static void main(String[] args) {
+		String str = "Hello World";
+		String reverse = "";
+		for (int i = str.length() - 1; i >= 0; i--) {
+			reverse += str.charAt(i);
+		}
+		System.out.println(reverse);
+		System.out.println(reverse.indexOf('W'));
+		System.out.println(reverse.substring(4));
+		System.out.println(reverse.toCharArray());
+		char[]ch = reverse.toCharArray();
+		System.out.println(ch);
+		System.out.println(reverse.replace('W', 'B'));
+		String[]arr = reverse.split(" ");
+		System.out.println(arr[0]);
+		System.out.println();
+		
+	
+	
+	
+	
+	
+	
+	}
+	
+}
