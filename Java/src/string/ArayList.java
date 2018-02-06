@@ -23,5 +23,6 @@ public class ArayList {
 		list.clear();
 		System.out.println(list);
 		System.out.println("End of the story");
+		System.out.println("Not Yet!");
 	}
 }
